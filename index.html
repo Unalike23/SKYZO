@@ -73,18 +73,18 @@
                         <img src="Images/TOP.PNG" class="img-responsive TOPIMG mx-auto d-block">
                       </div>
                         </div>
-                        <div class="row TB2 cardsH" id="col2"><!-- MEMBERS -->
-                            <div class="col-md-3"><br><div><img src="Images/LEADER.gif" class="img-responsive cards mx-auto d-block hovercard clickable-img"></div>
+                        <div class="row cardsH" id="col2"><!-- MEMBERS -->
+                            <div class="col-md-3"><br><div><img src="Images/LEADER.gif" class="img-responsive cards mx-auto d-block hovercard"></div>
                             <br><div class="textlinks">LEADER</div></div>
-                            <div class="col-md-3"><br><a target="" href=""><img src="Images/ELITES.gif" class="img-responsive cards mx-auto d-block hovercard alt"></a>
+                            <div class="col-md-3"><br><img src="Images/ELITES.gif" class="img-responsive cards mx-auto d-block hovercard alt">
                               <br><div class="textlinks">ELITES</div></div>
-                            <div class="col-md-3"><br><a target="" href=""><img src="Images/CAPTAINS.PNG" class="img-responsive cards mx-auto d-block hovercard"></a>
+                            <div class="col-md-3"><br><img src="Images/CAPTAINS.PNG" class="img-responsive cards mx-auto d-block hovercard">
                               <br><div class="textlinks">CAPTAINS</div></div>
-                            <div class="col-md-3"><br><a target="" href=""><img src="Images/MEMBERS.PNG" class="img-responsive cards mx-auto d-block hovercard alt"></a>
+                            <div class="col-md-3"><br><img src="Images/MEMBERS.PNG" class="img-responsive cards mx-auto d-block hovercard alt">
                               <br><div class="textlinks">MEMBERS</div></div>
                         </div>
                         
-                        <div class="row TB2" id="col3"><!-- JOIN US -->
+                        <div class="row" id="col3"><!-- JOIN US -->
                           <div class="col-md-2 offset-1"><br><br><br><img src="Images/Wired.gif" class="img-responsive WiredImage"></div>
                           <div class="col-md-4"><br><br><br><div class="JoinUs">Want to join us ?<br>First you'll need to know some info and requirements !<br><br>- 250 points per day (1h30/day)<br>- LVL 130+<br>- Our main language is english.<br>- No cheaters and exploiters.<br><br>Contact us on <a target="_blank" href="https://discord.gg/7szEa69gzv" class="DiscordLink">Discord</a> if you want to join</div></div>
                           <div class="col-md-4"><br><br><br><img src="Images/StatsLain.gif" class="img-responsive"></div>
@@ -204,90 +204,8 @@ $(document).ready(function(){
   });
 });
 
-            $(document).ready(function(){
-              $(".clickable-img").click(function(){
-                copyToClipboard(".una.");
-              });
-              function copyToClipboard(text) {
-                var $temp = $("<input>");
-                $("body").append($temp);
-                $temp.val(text).select();
-                document.execCommand("copy");
-                $temp.remove();
-                alert("Message copié : " + text);
-              }
-            });
 
-            $(document).ready(function(){
-              $(".clickable-img2").click(function(){
-                copyToClipboard("Unalike_");
-              });
-              function copyToClipboard(text) {
-                var $temp = $("<input>");
-                $("body").append($temp);
-                $temp.val(text).select();
-                document.execCommand("copy");
-                $temp.remove();
-                alert("Message copié : " + text);
-              }
-            });
-
-            $(document).ready(function(){
-              $(".clickable-img3").click(function(){
-                copyToClipboard("EvIIIan");
-              });
-              function copyToClipboard(text) {
-                var $temp = $("<input>");
-                $("body").append($temp);
-                $temp.val(text).select();
-                document.execCommand("copy");
-                $temp.remove();
-                alert("Message copié : " + text);
-              }
-            });
-
-            $(document).ready(function(){
-              $(".clickable-img4").click(function(){
-                copyToClipboard("Una.like23");
-              });
-              function copyToClipboard(text) {
-                var $temp = $("<input>");
-                $("body").append($temp);
-                $temp.val(text).select();
-                document.execCommand("copy");
-                $temp.remove();
-                alert("Message copié : " + text);
-              }
-            });
           </script>
-    <script>
-      let isUserScrolling = false;
-
-      // Détecte si l'utilisateur fait défiler la page manuellement
-      window.addEventListener('scroll', function() {
-          isUserScrolling = true;
-          clearTimeout(autoScrollTimeout);
-          autoScrollTimeout = setTimeout(function() {
-              isUserScrolling = false;
-              scrollToBottom();
-          }, 2000); // Reprend le défilement automatique après 2 secondes d'inactivité
-      });
-
-      let autoScrollTimeout;
-
-      function scrollToBottom() {
-          if (!isUserScrolling) {
-              window.scrollBy(0, 2); // Définit la vitesse du défilement
-              if ((window.innerHeight + window.scrollY) < document.body.offsetHeight) {
-                  requestAnimationFrame(scrollToBottom);
-              }
-          }
-      }
-
-      window.onload = function() {
-          scrollToBottom();
-      }
-  </script>
 <!-- "Wtf mec t'as recopié ton code la non ?" enft c'est pour que ça marche sur tel aussi jsp si y'a un autre moyen mais voilà mdrr vraiment ça doit être horrible !! J'ADORE CODE -->
           <div class="page d-block d-sm-none">
 
@@ -389,21 +307,6 @@ $(document).ready(function(){
   });
 });
 
-
-  $(document).ready(function(){
-    $(".clickable-img").click(function(){
-      copyToClipboard(".una.");
-    });
-
-    function copyToClipboard(text) {
-      var $temp = $("<input>");
-      $("body").append($temp);
-      $temp.val(text).select();
-      document.execCommand("copy");
-      $temp.remove();
-      alert("Message copié : " + text);
-    }
-  });
 </script>
 </body>
 <!-- On m'a appris l'existence d'un truc WordPress, wtf ? Tu vas me dire je code pour rien là ? A moins que j'ai mal compris MAIS BON FAIT CHIER et tu sais quoi je continue a coder-->
