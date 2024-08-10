@@ -1,0 +1,42 @@
+.CYNTEXT{
+    font-family: CYN;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+}
+.THTEXT{
+    font-family: TH;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    text-align: center;
+}
+.ONITEXT{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+}
+.PRESENTS{
+    font-family: TH;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    margin-bottom: 10px;
+}
+
+@font-face {
+    font-family: CYN;
+    src: url(Play-Bold.ttf);
+}
+@font-face {
+    font-family: TH;
+    src: url(Play-Regular.ttf);
+}
+
+.blackback{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.VINYLS{
+    margin-top: 50vh;
+}

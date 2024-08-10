@@ -1,0 +1,554 @@
+/* Alors ici mon gars c'est une déchéterie littéralement je vais me coller une balle dans le crâne */
+  
+.container-fluid{ border: 0px; }
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{display:block; max-width:100%; height: auto;}
+
+body{
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url(ImagesForCss/Background3.PNG);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.WiredImage{
+  filter: hue-rotate(270deg);
+  justify-content: right;
+  display: flex;
+}
+
+.zoom {
+  background-color: rgba(0, 0, 0, 0);
+  transition: transform .2s;
+  width: max-content;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+.noimage{
+  height: auto;
+  width: 15vw;
+}
+.RockBottom{
+  height: auto;
+  width: 10vw;
+  margin-bottom: 20vh;
+}
+.AboutImg{
+  margin-top: 5vh;
+}
+
+.HeightAM{
+  height: 25vh;
+}
+.JoinUs{
+  text-align: left;
+  font-size: 2vh;
+  color: white;
+  font-family: 'DejaVu Sans Mono', monospace;
+  letter-spacing: 0.2vh;
+}
+.AboutText{
+  text-align: center;
+  font-size: 2vh;
+  color: white;
+  font-family: 'DejaVu Sans Mono', monospace;
+  letter-spacing: 0.1vh;
+}
+.AboutTitle{
+  height: 6vh;
+  justify-content: center;
+  display: flex;
+  margin-top: 2vh;
+}
+.TOPIMG{
+  height: 20vh;
+  justify-content: center;
+  display: flex;
+  margin-top: 10vh;
+}
+
+.DiscordLink{
+  color: #CC7187;
+}
+
+.Classroom{
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+  height: 30vh;
+}
+
+.logoguild{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.heightH{
+  height: 70vh;
+}
+.heightZ{
+  height: 350px;
+}
+
+.background3{
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.centering{
+  height: 360px;
+}
+
+.menubuttons{
+  text-align: center;
+  z-index: 9998;
+  background-color: black;
+}
+.menubuttons2{
+  text-align: center;
+  z-index: 9998;
+  margin-top: 5px;
+}
+
+.heightP{
+  height: 30vh;
+}
+.heightP2{
+  height: 30vh;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bspace{
+  margin-right: 20px;
+}
+
+.aspace{
+  margin-right: 100px;
+}
+
+button {
+    box-shadow: inset 0 0 0 0 #ffffff;
+    color: #ffffff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-size: 25px;
+    text-decoration-line: none;
+    font-family: 'DejaVu Sans Mono', monospace;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+button:hover {
+    box-shadow: inset 300px 0 0 0 #9e335f83;
+    color: rgb(255, 255, 255);
+}
+.heightone{
+    height: 250px;
+}
+.ENFR{
+    width: 80px;
+}
+.cover-container {
+  height: 100vh;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+.heightSM{
+  height: 86px;
+}
+/*@media (min-width: 768px) {*/
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1d1d1d; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+  }
+/*}*/
+
+body {
+  margin: 0;
+  overflow-x:hidden;
+}
+
+.page {
+  width:100vw;
+  height:100vh;
+  perspective:1px;
+  perspective-origin: center center;
+  overflow-x:hidden;
+}
+
+.overflow {
+  position:absolute;
+  width:100vw;
+
+}
+
+#parallax {
+  transform-style: preserve-3d;
+  height:30vh;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.fadeOut {
+  animation: fadeOut 1s ease-in-out;
+}
+
+.margelinks{
+  margin-top: 100px;
+}
+
+.cards{
+  width: 300px;
+  height: 380px;
+  background-size: cover;
+}
+.cards2{
+  width: 200px;
+  height: 210px;
+  background-size: cover;
+  border-radius: 1%;
+}
+
+.TB2{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.heightS{
+  height: 400px;
+}
+
+.textlinks{
+  box-shadow: inset 0 0 0 0 #ffffff;
+  color: #ffffff;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  font-size: 20px;
+  text-decoration-line: none;
+  font-family: 'DejaVu Sans Mono', monospace;
+  letter-spacing: 2px;
+  border: none;
+  text-align: center;
+}
+.textlinks2{
+  box-shadow: inset 0 0 0 0 #ffffff;
+  color: #ffffff;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  font-size: 13px;
+  text-decoration-line: none;
+  font-family: 'DejaVu Sans Mono', monospace;
+  letter-spacing: 2px;
+  border: none;
+  text-align: center;
+}
+
+.TEST{
+  border: 2px solid rgb(248, 0, 0);
+}
+.TEST2{
+  border: 2px solid rgb(0, 153, 255);
+}
+.TEST3{
+  border: 2px solid rgb(0, 255, 64);
+}
+
+.cardsH{
+  height: 450px;
+  background-color: #00000000;
+}
+
+.clickable-img {
+  cursor: pointer;
+}
+.clickable-img2 {
+  cursor: pointer;
+}
+.clickable-img3 {
+  cursor: pointer;
+}
+.clickable-img4 {
+  cursor: pointer;
+}
+
+.hovercard {
+  --a: 8deg;
+  aspect-ratio: 1;
+  border-radius: 5px;
+  transform: perspective(400px) rotate3d(var(--r,1,-1),0,calc(var(--i,1)*var(--a)));
+  -webkit-mask: 
+    linear-gradient(135deg,rgb(0, 0, 0) 40%,#000,#000c 60%)
+    100% 100%/250% 250%;
+  transition: .4s;
+  cursor: pointer;
+}
+.alt {
+  --r: 1,1;
+  -webkit-mask: 
+    linear-gradient(45deg,#000c 40%,#000,rgb(0, 0, 0) 60%)
+    0 100%/250% 250%;
+}
+.hovercard:hover {
+  --i: -1;
+  -webkit-mask-position: 0 0;
+}
+.alt:hover {
+  -webkit-mask-position: 100% 0;
+}
+
+.ButtonTel{
+  font-size: 20px;
+}
+
+.laindancing{
+  margin-top: 100px;
+}
+
+.discards{
+  border-radius: 5%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.button-inside-image {
+  position: absolute;
+  bottom: 47%;
+  left: 80%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #ec6a6a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.phonecard{
+  width: 83vw;
+}
+
+.button-inside-image2 {
+  position: absolute;
+  bottom: 50%;
+  left: 60%;
+  padding: 10px 20px;
+  background-color: #ec6a6a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.heightN{
+  height: 50px;
+  background-color: #0000008a;
+}
+
+.unav{
+  height: 50px;
+}
+
+.rightnav{
+  height: 40px;
+  float: right;
+}
+
+.AboutMe{
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  margin-top: 40px;
+  font-family: monospace;
+}
+.AboutMee{
+  text-align: right;
+  font-size: 25px;
+  color: white;
+  margin-top: 40px;
+  font-family: monospace;
+}
+.AboutMe2{
+  text-align: left;
+  font-size: 21px;
+  color: white;
+  margin-top: 50px;
+  font-family: monospace;
+}
+
+.Barrr{
+  height: 40vh;
+}
+
+.ABTME{
+  top: 5%;
+  height: 65%;
+}
+
+.responsive-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.absolute{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 9999;
+  overflow: hidden;
+  background-image: url(ImagesForCss/TANSITION.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.absolute2{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 9999;
+  overflow: hidden;
+  background-image: url(ImagesForCss/tansition2.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 7ch;
+  animation: typing 1s steps(7), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 4em;
+  color: rgb(232, 230, 255);
+}
+.typing-demo2 {
+  width: 8ch;
+  animation: typing 1s steps(12), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 4em;
+  color: rgb(0, 0, 0);
+}
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.fullpage{
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/* Bon parfois on dirait certains trucs sont fait par Chatgpt, et oui, c'est parfois le cas (je modif le code pour que ça marche sur le miens)
+car j'ai pas le skill supreme, cependant il m'a beaucoup appris.
+Franchement je ne savais pas que ces vieux robots allaient être utile pour mon apprentissage mdrr j'adore Chatgpt */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

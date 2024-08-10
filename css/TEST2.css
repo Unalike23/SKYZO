@@ -1,0 +1,823 @@
+.container-fluid{ border: 0px; }
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{display:block; max-width:100%; height: auto;}
+
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heightH{
+  height: 70vh;
+}
+.heightZ{
+  height: 350px;
+}
+
+.background1{
+  background-image: url(ImagesForCss/Wallpaper2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.background2{
+  background-image: url(ImagesForCss/Wallpaper3.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.centering{
+  height: 360px;
+}
+
+.menubuttons{
+  text-align: center;
+  z-index: 9998;
+  background-color: black;
+}
+.menubuttons2{
+  text-align: center;
+  z-index: 9998;
+  margin-top: 5px;
+}
+
+.heightP{
+  height: 85vh;
+}
+.heightP2{
+  height: 100vh;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bspace{
+  margin-right: 20px;
+}
+
+.aspace{
+  margin-right: 100px;
+}
+
+button {
+    box-shadow: inset 0 0 0 0 #ffffff;
+    color: #ffffff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-size: 35px;
+    text-decoration-line: none;
+    font-family: Omori;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+button:hover {
+    box-shadow: inset 300px 0 0 0 #8b8b8b83;
+    color: rgb(255, 255, 255);
+}
+
+.cover-container {
+  height: 100vh;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1d1d1d; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+}
+
+.overflow {
+  position:absolute;
+  width:100vw;
+  height:80vh;
+  top:100vh;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.fadeOut {
+  animation: fadeOut 1s ease-in-out;
+}
+
+.TB2{
+  background-color: black;
+}
+
+.textlinks{
+  box-shadow: inset 0 0 0 0 #ffffff;
+  color: #ffffff;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  font-size: 20px;
+  text-decoration-line: none;
+  font-family: 'DejaVu Sans Mono', monospace;
+  letter-spacing: 2px;
+  background-color: #000000;
+  border: none;
+  text-align: center;
+}
+.textlinks2{
+  box-shadow: inset 0 0 0 0 #ffffff;
+  color: #ffffff;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  font-size: 13px;
+  text-decoration-line: none;
+  font-family: 'DejaVu Sans Mono', monospace;
+  letter-spacing: 2px;
+  background-color: #000000;
+  border: none;
+  text-align: center;
+}
+
+.TEST{
+  border: 2px solid rgb(100, 0, 0);
+}
+
+.ButtonTel{
+  font-size: 20px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.heightN{
+  height: 50px;
+  background-color: #0000008a;
+}
+
+.unav{
+  height: 50px;
+}
+
+.AboutMe{
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  margin-top: 40px;
+  font-family: monospace;
+}
+.AboutMe2{
+  text-align: left;
+  font-size: 21px;
+  color: white;
+  margin-top: 50px;
+  font-family: monospace;
+}
+
+.responsive-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.absolute2{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 9999;
+  overflow: hidden;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fullpage{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.typing-demo {
+  width: 12ch;
+  animation: typing 1s steps(12), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 4em;
+  color: rgb(0, 0, 0);
+}
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.border5{
+  border-radius: 10px;
+}
+
+.bulb{
+    height: 20vh;
+    background-image: url(ImagesForCss/bulb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.bar{
+    height: 100%;
+    float: right;
+}
+.barT{
+  height: 60%;
+  float: right;
+}
+
+.typing-demo2 {
+    width: 5ch;
+    animation: typing2 1s steps(5), blink2 .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: Enchanted;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.typing-demo3 {
+    width: 11ch;
+    animation: typing2 1s steps(11), blink2 .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: Enchanted;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.typing-demo4 {
+    width: 11ch;
+    animation: typing2 1s steps(11), blink2 .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: Enchanted;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.typing-demo5 {
+    width: 12ch;
+    animation: typing2 1s steps(12), blink2 .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: Enchanted;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+  
+@keyframes typing2 {
+    from {
+      width: 0
+    }
+}
+      
+@keyframes blink2 {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
+.emptyH{
+  height: 15vh;
+}
+.heightVOID{
+  height: 200vh;
+}
+.VOID{
+  background: linear-gradient(#ffffff 0%, #202020 70%, #000000 85%);
+}
+
+.floor{
+  border: solid black 5px;
+  height: 40vh;
+}
+
+.door{
+  float: right;
+  height: 15vh;
+}
+.doorT{
+  float: right;
+  height: 14vh;
+}
+.laptop{
+  height: 8vh;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+.book{
+  float: right;
+  height: 8vh;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+.SewerOmori{
+  height: 15vh;
+  margin-top: 10vh;
+  cursor: pointer;
+}
+.LWB{
+  height: 8vh;
+  margin-top: 15vh;
+}
+.MusicPlayer{
+  height: 8vh;
+  margin-top: 15vh;
+  cursor: pointer;
+}
+.hand{
+  height: 50vh;
+  width: auto;
+  transform: rotate(180deg);
+  margin-top: 130vh;
+  margin-right: 4%;
+}
+.hand2{
+  height: 40vh;
+  width: auto;
+  transform: rotate(180deg);
+  margin-top: 140vh;
+  margin-right: 6%;
+}
+
+.BlackSpace{
+  height: 100vh;
+  background-color: black;
+}
+
+.RedHand{
+  height: 20vh;
+  width: auto;
+  transform: rotate(180deg);
+  margin-top: 70%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.textarea1 {
+  width: 30vh;
+  height: 5vh;
+  font-size: 3vh;
+  resize: none;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: Omori;
+  top: 0;
+}
+.textarea2{
+  width: 25vh;
+  height: 5vh;
+  font-size: 3vh;
+  resize: none;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: Omori;
+  top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#column {
+  border: 1px solid black;
+  padding: 20px;
+  width: 25%;
+}
+
+@font-face {
+  font-family: Omori;
+  src: url(OMORI_GAME2.ttf);
+}
+@font-face {
+  font-family: Enchanted;
+  src: url(EnchantedTales.otf);
+}
+
+.fullpage2{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.screen{
+  background-image: url(ImagesForCss/laptopscreen.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  position: absolute;
+}
+.screenT{
+  background-image: url(ImagesForCss/laptopscreen.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: absolute;
+}
+.screen1{
+  background-color: #000000;
+}
+
+.program{
+  margin-top: 10vh;
+  height: 35vh;
+}
+.program2{
+  margin-top: 20vh;
+  height: 35vh;
+}
+
+.Omori{
+  font-family: Omori;
+  color: white;
+  font-size: 5vh;
+  text-align: center;
+  margin-top: 4vh;
+}
+.Omori2{
+  font-family: Omori;
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+  margin-top: 4vh; 
+}
+.Omori3{
+  font-family: Omori;
+  color: rgb(0, 0, 0);
+  font-size: 3vh;
+  text-align: center;
+  margin-top: 4vh; 
+}
+
+.centered-element{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered-element2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textbox{
+  background-image: url(ImagesForCss/EmptyTextBox.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  height: 25vh;
+}
+.textbox2{
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 30vh;
+  border: solid 2px white;
+}
+
+.return1{
+  margin-top: 3vh;
+}
+.return1T{
+  margin-top: 4vh;
+}
+.return2{
+  color: black;
+}
+
+.sketchbook{
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slider-container {
+  max-width: 55vw;
+  position: relative;
+  margin: auto;
+  height: 80vh;
+  overflow: hidden;
+  background-image: url(ImagesForCss/Sketch.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.slider-container2 {
+margin-top: 40%;
+max-width: 99vw;
+position: relative;
+height: 50vh;
+overflow: hidden;
+background-image: url(ImagesForCss/Sketch.JPG);
+background-size: contain;
+background-repeat: no-repeat;
+}
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50px;
+  margin: 0 0.2em 1em;
+}
+.menu label:hover,.menu label:focus {
+  background: #7f00d3;
+}
+.slide-input{
+  opacity: 0;
+}
+.slide-img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  transition: left 0s 0.75s;
+}
+.slide-img2 {
+width: 100%;
+height: auto;
+position: absolute;
+top: 0;
+left: 100%;
+z-index: 10;
+transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide-img {
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out;
+}
+[id^="slide2"]:checked + .slide-img2 {
+left: 0;
+z-index: 100;
+transition: left 0.65s ease-out;
+}
+
+.TheWhiteSpace{
+  color: black;
+  font-family: Enchanted;
+  font-size: 10vh;
+  text-align: center;
+}
+.TheWhiteSpaceT{
+  color: #000000;
+  font-family: Enchanted;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.UnaChat{
+  position: fixed;
+  bottom: 0;
+  background-color: #f0f0f000;
+  width: 100vw;
+  height: 30vh;
+}
+.UnaChat2{
+  position: fixed;
+  bottom: 12vh;
+  background-color: #f0f0f000;
+  width: 100vw;
+  height: 15vh;
+}
+
+.UnaText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.UnaText2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.6);
+  height: 15vh;
+}
+
+.BlackDivide{
+  width: 100vw;
+  height: 50vh;
+  background-image: url(ImagesForCss/BlackDivide.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.DEATH{
+  height: 50vh;
+  float: right;
+}
+.DEATH2{
+  height: 30vh;
+  float: right;
+}
+
+.typing-demoT {
+  width: 20ch;
+  animation: typing2 1s steps(20), blink2 .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: Enchanted;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.ArchangeUna{
+  background-color: black;
+  height: 70vh;
+  width: auto;
+}
+
+.col1T{
+  overflow: hidden;
+}
+
+#imageColumnB {
+    width: 100%;
+    height: 90vh;
+}
+
+#imageColumnB img {
+    width: 100%;
+    height: auto;
+}
+
+#imageColumnBS2 {
+  width: 90vw;
+  height: auto;
+}
+
+#imageColumnBS2 img {
+  width: 100%;
+}
+
+.PCAPP{
+  height: 10vh;
+  width: auto;
+  cursor: pointer;
+}
+
+.PCTEXT{
+  color: white;
+  font-family: omori;
+  font-size: 3vh;
+  text-align: center;
+  line-height: 2vh
+}
+
+.PCAPPCOL{
+  position: absolute;
+}
+.PCAPPCOL2{
+  position: absolute;
+  margin-top: 15vh;
+}
+.PCAPPCOL3{
+  position: absolute;
+  margin-top: 30vh;
+}
+.PCAPPCOL4{
+  position: absolute;
+  margin-top: 45vh;
+}
+
+.TheWired{
+  z-index: 9000;
+}
+
+.AbsPC{
+  position: absolute;
+}
+
+.RadioM{
+  height: 40vh;
+  width: auto;
+  position: absolute;
+}
+
+.NotePad{
+  height: 40vh;
+  width: auto;
+  margin-top: 15vh;
+}
+
+.UnaM{
+  height: 60vh;
+  width: auto;
+  position: absolute;
+  margin-top: 5vh;
+}
+
+.NoteText{
+  font-family: omori;
+  font-size: 4vh;
+  background-color: #000000;
+  color: white;
+  border: none;
+  resize: none;
+  height: 30vh;
+  width: 33vh;
+}
